@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div id="main">         <!-- main page design  -->
+        <span id="s1"><b>Tasks </b> List</span><br>
+        <span id="s2">No Items in The ToDo List</span>
+        <a id="add" onclick="popup()" style="color:blue;;"><span class="material-icons">
+            add_circle
+            </span></a>
+            <span id="afterbtn">ADD ITEM</span>
+        </div><br><br>
+
+ <div id="popup">        <!-- for popup part -->
+          <span id="s3">Add New Task</span> <br>
+          <input type="text" id="card" value="" placeholder="Enter Task Name"><br>
+          <button onclick="add()" style="height: 30px;width: 80px;border-radius: 30px;;background-color:darkorange;border: 0px;">ADD</button>
+          <button onclick="close()" style="height: 30px;width: 80px;border-radius: 30px;;background-color:darkorange;border: 0px;">CLOSE</button>
+
+        </div>
+ <div id="parent"></div>  <!--for dynamically card parent in this we array of object cbild -->
+    <script src="./script.js"></script>
+</body>
+</html>

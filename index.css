@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(41, 34, 34);
+}
+#s1{
+position: relative;
+top: 30px;
+left: 80px;
+font-size: 45px;
+color: white;
+}
+#s2{
+    position: relative;
+    top: 45px;
+    left: 85px;
+    font-size: 30px;
+    padding: 0px;
+    color: white;
+    }
+    #add{
+     position: absolute;
+    top: 65px;
+    left: 1150px;
+    font-size: 30px;
+    }
+    #card{
+        text-align: center;
+        height: 30px;
+        width: 300px;
+        border-radius: 15px;
+    }
+    #afterbtn{
+    position: absolute;
+    top: 65px;
+    left: 1175px;
+    color: white;
+    font-size: 25px;
+    }
+#popup{
+    height: 180px;
+    width: 350px;
+    border: 2px solid red;
+    border-radius: 10px;
+    position:fixed;
+    left: 500px;
+    top: 100px;
+    text-align: center;
+    font-size: 35px;
+    background-color: whitesmoke;
+    display:none;
+}
+#parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#child{
+    height: 380px;
+    width: 300px;
+    border: 2px solid red;
+    border-radius: 20px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    color: blue;
+    
+}
